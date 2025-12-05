@@ -1,11 +1,26 @@
 ﻿{
-  "name": "ggwes-replay-parser",
-  "version": "1.0.0",
-  "main": "parse_replay.js",
-  "scripts": {
-    "start": "node parse_replay.js"
-  },
-  "dependencies": {
-    "fortnite-replay-parser": "^1.0.0"
-  }
+    "name":  "ggwes-replay-parser",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "start":  "node api/parse_replay.js"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/Shaltooot/ggwes-replay-parser.git"
+                   },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "bugs":  {
+                 "url":  "https://github.com/Shaltooot/ggwes-replay-parser/issues"
+             },
+    "homepage":  "https://github.com/Shaltooot/ggwes-replay-parser#readme",
+    "dependencies":  {
+                         "formidable":  "^3.5.4",
+                         "fortnite-replay-parser":  "^1.4.8"
+                     }
 }
