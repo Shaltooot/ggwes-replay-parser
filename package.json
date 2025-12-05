@@ -1,0 +1,8 @@
+﻿{
+  "name": "ggwes-replay-parser",
+  "version": "1.0.0",
+  "main": "parse_replay.js",
+  "dependencies": {
+    "fortnite-replay-parser": "^1.0.0"
+  }
+}
