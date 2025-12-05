@@ -1,0 +1,13 @@
+﻿{
+  "name": "ggwes-replay-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/parse_replay.js",
+  "scripts": {
+    "start": "node api/parse_replay.js"
+  },
+  "dependencies": {
+    "fortnite-replay-parser": "^1.0.0",
+    "formidable": "^3.6.3"
+  }
+}
