@@ -1,9 +1,9 @@
 ﻿import formidable from 'formidable';
 import fs from 'fs';
 import replayReader from 'fortnite-replay-parser';
-import handleEventEmitter from '../exports/handleEventEmitter.js';
-import NetFieldExports from '../exports/NetFieldExports.js';
-import customClasses from '../exports/Classes.js';
+import handleEventEmitter from './exports/handleEventEmitter.js';
+import NetFieldExports from './exports/NetFieldExports.js';
+import customClasses from './exports/Classes.js';
 
 export const config = {
   api: {
