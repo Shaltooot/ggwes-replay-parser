@@ -1,13 +1,8 @@
-{
-  "name": "ggwes-replay-parser",
+﻿{
+  "name": "ggwes-replay-parser-vercel",
   "version": "1.0.0",
   "type": "module",
-  "main": "api/parse_replay.js",
-  "scripts": {
-    "start": "node api/parse_replay.js"
-  },
   "dependencies": {
-    "formidable": "^3.5.4",
-    "fortnite-replay-parser": "^1.4.8"
+    "replay-reader": "github:xNocken/replay-reader"
   }
 }
